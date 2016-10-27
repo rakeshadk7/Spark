@@ -1,6 +1,7 @@
 from pyspark import SparkConf, SparkContext
 import collections
 
+#Boiler Plate stuff
 conf = SparkConf().setMaster("local").setAppName("RatingsHistogram")
 sc = SparkContext(conf = conf)
 
